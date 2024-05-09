@@ -1,0 +1,349 @@
+* {
+    box-sizing: border-box;
+
+
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./IMG/2.jpg);
+}
+
+
+nav {
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    color: azure;
+
+}
+
+#img1 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+}
+
+/*############################################################# "hada dyal nav" */
+
+.AB {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    /*margin-top: -100px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+
+
+}
+
+.nm {
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+
+.nm p {
+    color: rgb(255, 255, 255);
+    margin: 0;
+
+}
+
+.t2 {
+    text-align: center;
+    /*margin-bottom: 20px;*/
+    color: orange;
+    margin-bottom: 20px;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 180px;
+    background-color: aqua;
+    border-radius: 20px;
+
+}
+
+.btn a {
+    text-align: center;
+    color: black;
+}
+
+#t1 {
+    font-size: 90px;
+}
+
+.right {
+    flex: 2;
+    order: 2;
+
+}
+
+#img2 {
+    height: 510px;
+    transform: rotate(-8deg);
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+h3 {
+    border: 1px solid orange;
+    border-radius: 40px;
+    margin-right: 15px;
+    padding: 20px;
+    margin-left: 15px;
+}
+
+.tt {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+}
+
+.BC p {
+    font-family: "Aclonica", sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.vid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+video {
+    width: 300px;
+    height: 430px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.bla p {
+    font-family: "Aclonica", sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.bla h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.loc p {
+    font-family: "Aclonica", sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.loc .ez img {
+    width: 100%;
+}
+
+footer .end {
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    margin-top: 1%;
+
+}
+
+.lg {
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.oi {
+    font-family: "Aclonica", sans-serif;
+    font-size: 20px;
+    margin-right: 5px;
+
+}
+
+.bx {
+    display: flex;
+    justify-content: space-between;
+    color: azure;
+}
+
+.lk a {
+    font-family: "Aclonica", sans-serif;
+    font-size: 20px;
+}
+
+.lk {
+    margin-top: 15px;
+}
+
+.oi input {
+    outline: none;
+    height: 30px;
+    width: 250px;
+    opacity: 1;
+    color: bisque;
+}
+
+.lgs {
+    display: flex;
+    justify-content: center;
+}
+
+.lgs img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (width < 600px) {
+    * {
+        box-sizing: border-box;
+        overflow-x: hidden;   
+    }
+    a {
+        font-size: 12px;
+        font-weight: 900;
+    }
+    #t1 {
+        font-size: 50px;
+    }
+    .AB{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .left{
+        order: 2;
+    }
+    .right{
+        order: 1;
+        overflow:hidden;
+ }
+    #img2 {
+        height: 308px;
+        transform: rotate(-8deg);
+    }
+
+    .tt p{
+        margin-left: 10px;
+    }
+    .bla p{
+        margin-left: 10px;
+    }
+    .bla h3{
+        margin-left: 10%;
+    }
+    .loc p{
+        margin-left: 10px;
+    }
+    .end {
+        height: 105px;
+    }
+    .lk a{
+        font-size: 10px;
+        font-weight: 700;
+    }
+    .oi p{
+        font-size: 10px;
+        font-weight: 700;
+    }
+    .oi input{
+        width: 60%;
+    }
+    .lgs img{
+        width: 25px;
+        height: 25px;
+    }
+
+}
+@media screen and (width < 600px) {
+    * {
+        box-sizing: border-box;
+        overflow-x: hidden;   
+    }
+    a {
+        font-size: 12px;
+        font-weight: 900;
+    }
+    #t1 {
+        font-size: 50px;
+    }
+    .AB{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .left{
+        order: 2;
+    }
+    .right{
+        order: 1;
+        overflow:hidden;
+ }
+    #img2 {
+        height: 308px;
+        transform: rotate(-8deg);
+    }
+
+    .tt p{
+        margin-left: 10px;
+    }
+    .bla p{
+        margin-left: 10px;
+    }
+    .bla h3{
+        margin-left: 10%;
+    }
+    .loc p{
+        margin-left: 10px;
+    }
+    .end {
+        height: 105px;
+    }
+    .lk a{
+        font-size: 10px;
+        font-weight: 700;
+    }
+    .oi p{
+        font-size: 10px;
+        font-weight: 700;
+    }
+    .oi input{
+        width: 60%;
+    }
+    .lgs img{
+        width: 25px;
+        height: 25px;
+    }
+
+}
